@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <title>Doctor Strange</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,16 +12,21 @@
     <link rel="stylesheet" href="./_css/header.css">
     <link rel="stylesheet" href="./_css/main.css">
     <link rel="stylesheet" href="./_css/footer.css">
-    <script src="https://kit.fontawesome.com/2f7d56286c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./_css/burger.css">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+    <script src="./_js/burger.js" defer></script>
+    <title>Doctor Strange</title>
 </head>
 <body>
-    
     <header>
-        <a href="http://www.marvel.com/">
-            <img src="./_img/logo-marvel.png" alt="logo da marvel">
+        <a href="https://www.marvel.com/">
+            <img src="./_img/logo-marvel.png" alt="Logo da Marvel">
         </a>
         <nav>
-            <ul class="menu">
+            <a href="#" class="menu-burger-container">
+                <i class="menu-burger"></i>
+            </a>
+            <ul class="links-container">
                 <li>
                     <a href="#">HOME</a>
                 </li>
@@ -33,19 +37,23 @@
                     <a href="#">GALERIA</a>
                 </li>
                 <li>
-                    <a href="#">VIDEOS</a>
+                    <a href="#">VÍDEOS</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="content-container">
-            <h1><span>Doctor</span> STRANGE</h1>
-            <span class="movie-title">MULTIVERSE OF MADNESS</span>
-
-            <p class="movie-text">Um passeio emocionante pelo Multiverso com Doutor Estranho, seu amigo de confiança Wong e Wanda Maximoff, também conhecida como Feiticeira Escarlate.</p>
-
-            <a href="#" class="movie-button">
+            <h1>
+                <span>Doctor</span>STRANGE
+            </h1>
+            <span class="movie-title">
+                MULTIVERSE OF MADNESS
+            </span>
+            <p class="movie-text">
+                Um passeio emocionante pelo Multiverso com Doutor Estranho, seu amigo de confiança Wong e Wanda Maximoff, também conhecida como Feiticeira Escarlate.
+            </p>
+            <a href="https://youtu.be/zpz1Ncgx1KQ" class="movie-button">
                 Assista o Trailer &RightArrow;
             </a>
         </div>
@@ -57,23 +65,25 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/marvel">
+                    <a href="https://twitter.com/marvel">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/marvel">
+                    <a href="https://www.instagram.com/marvel/">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/marvel">
+                    <a href="ttps://www.facebook.com/MarvelBR">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
             </ul>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        Copyright 2022 © | Danilo Santos
+    </footer>    
 </body>
 </html>
